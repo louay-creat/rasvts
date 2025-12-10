@@ -1,0 +1,27 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from smartfleet_msgs/msg/V2VMessage.msg
+// generated code does not contain a copyright notice
+
+#include "builtin_interfaces/msg/Time.idl"
+
+module smartfleet_msgs {
+  module msg {
+    struct V2VMessage {
+      int32 sender_id;
+
+      @verbatim (language="comment", text=
+        "empty => broadcast to all within range")
+      sequence<int32> receivers_id;
+
+      builtin_interfaces::msg::Time stamp;
+
+      @verbatim (language="comment", text=
+        "\"BID\", \"ASSIGN\", \"STATUS\", etc.")
+      string type;
+
+      @verbatim (language="comment", text=
+        "JSON or custom-encoded")
+      string payload;
+    };
+  };
+};

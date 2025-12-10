@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-b1aec6c7b5cb6017059e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "rplidar_ros",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "rplidar_composition::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rplidar_composition-5d2b8d23eef162c6a43f.json",
+					"name" : "rplidar_composition",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rplidar_composition_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rplidar_composition_node-4ae804d7a7123f7a3915.json",
+					"name" : "rplidar_composition_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rplidar_ros_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rplidar_ros_uninstall-1bd2125513ccd9a4f0b6.json",
+					"name" : "rplidar_ros_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-c784c0f275acf40b1c9e.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/louay/ros2_ws/build/rplidar_ros",
+		"source" : "/home/louay/ros2_ws/src/rplidar_ros"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

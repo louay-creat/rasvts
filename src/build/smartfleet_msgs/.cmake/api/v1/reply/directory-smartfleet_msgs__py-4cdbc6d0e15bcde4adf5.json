@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "smartfleet_msgs__py",
+		"source" : "/home/louay/ros2_ws/src/build/smartfleet_msgs/smartfleet_msgs__py"
+	}
+}

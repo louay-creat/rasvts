@@ -1,0 +1,318 @@
+[0.025s] Invoking command in '/home/louay/ros2_ws/build/smartfleet_msgs': /usr/bin/cmake /home/louay/ros2_ws/src/smartfleet_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/louay/ros2_ws/install/smartfleet_msgs
+[0.242s] -- The C compiler identification is GNU 11.4.0
+[0.244s] -- The CXX compiler identification is GNU 11.4.0
+[0.245s] -- Detecting C compiler ABI info
+[0.290s] -- Detecting C compiler ABI info - done
+[0.294s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.294s] -- Detecting C compile features
+[0.295s] -- Detecting C compile features - done
+[0.299s] -- Detecting CXX compiler ABI info
+[0.395s] -- Detecting CXX compiler ABI info - done
+[0.396s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.396s] -- Detecting CXX compile features
+[0.397s] -- Detecting CXX compile features - done
+[0.399s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.546s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.615s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.618s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.622s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.657s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.684s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.957s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.136s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.376s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.405s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.405s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.454s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.454s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.454s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.454s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.477s] -- Found PythonExtra: .so  
+[1.560s] -- Configuring done
+[1.596s] -- Generating done
+[1.597s] [33mCMake Warning:
+[1.598s]   Manually-specified variables were not used by the project:
+[1.598s] 
+[1.598s]     CATKIN_INSTALL_INTO_PREFIX_ROOT
+[1.598s] 
+[1.598s] [0m
+[1.607s] -- Build files have been written to: /home/louay/ros2_ws/build/smartfleet_msgs
+[1.618s] Invoked command in '/home/louay/ros2_ws/build/smartfleet_msgs' returned '0': /usr/bin/cmake /home/louay/ros2_ws/src/smartfleet_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/louay/ros2_ws/install/smartfleet_msgs
+[1.618s] Invoking command in '/home/louay/ros2_ws/build/smartfleet_msgs': /usr/bin/cmake --build /home/louay/ros2_ws/build/smartfleet_msgs -- -j10 -l10
+[1.681s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.717s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.718s] [  3%] Built target ament_cmake_python_copy_smartfleet_msgs
+[1.915s] running egg_info
+[1.916s] creating smartfleet_msgs.egg-info
+[1.916s] writing smartfleet_msgs.egg-info/PKG-INFO
+[1.916s] writing dependency_links to smartfleet_msgs.egg-info/dependency_links.txt
+[1.916s] writing top-level names to smartfleet_msgs.egg-info/top_level.txt
+[1.917s] writing manifest file 'smartfleet_msgs.egg-info/SOURCES.txt'
+[1.921s] reading manifest file 'smartfleet_msgs.egg-info/SOURCES.txt'
+[1.921s] writing manifest file 'smartfleet_msgs.egg-info/SOURCES.txt'
+[1.948s] [  3%] Built target ament_cmake_python_build_smartfleet_msgs_egg
+[2.065s] [  3%] Built target smartfleet_msgs__cpp
+[2.082s] [  5%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.083s] [  7%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.092s] [  9%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.117s] [ 10%] [32mBuilding C object CMakeFiles/smartfleet_msgs__rosidl_generator_c.dir/rosidl_generator_c/smartfleet_msgs/msg/detail/v2_v_message__functions.c.o[0m
+[2.117s] [ 12%] [32mBuilding C object CMakeFiles/smartfleet_msgs__rosidl_generator_c.dir/rosidl_generator_c/smartfleet_msgs/msg/detail/task_status__functions.c.o[0m
+[2.119s] [ 14%] [32mBuilding C object CMakeFiles/smartfleet_msgs__rosidl_generator_c.dir/rosidl_generator_c/smartfleet_msgs/msg/detail/delivery_task__functions.c.o[0m
+[2.119s] [ 16%] [32mBuilding C object CMakeFiles/smartfleet_msgs__rosidl_generator_c.dir/rosidl_generator_c/smartfleet_msgs/msg/detail/vehicle_state__functions.c.o[0m
+[2.175s] [ 18%] [32m[1mLinking C shared library libsmartfleet_msgs__rosidl_generator_c.so[0m
+[2.212s] [ 18%] Built target smartfleet_msgs__rosidl_generator_c
+[2.230s] [ 20%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.230s] [ 21%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.230s] [ 23%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.362s] [ 25%] [32mBuilding CXX object CMakeFiles/smartfleet_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/smartfleet_msgs/msg/v2_v_message__type_support.cpp.o[0m
+[2.362s] [ 27%] [32mBuilding CXX object CMakeFiles/smartfleet_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/smartfleet_msgs/msg/vehicle_state__type_support.cpp.o[0m
+[2.365s] [ 29%] [32mBuilding CXX object CMakeFiles/smartfleet_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/smartfleet_msgs/msg/delivery_task__type_support.cpp.o[0m
+[2.377s] [ 30%] [32mBuilding CXX object CMakeFiles/smartfleet_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/smartfleet_msgs/msg/task_status__type_support.cpp.o[0m
+[2.400s] [ 32%] [32mBuilding CXX object CMakeFiles/smartfleet_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/smartfleet_msgs/msg/detail/delivery_task__type_support.cpp.o[0m
+[2.428s] [ 34%] [32mBuilding CXX object CMakeFiles/smartfleet_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/smartfleet_msgs/msg/detail/vehicle_state__type_support.cpp.o[0m
+[2.567s] [ 36%] [32mBuilding CXX object CMakeFiles/smartfleet_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/smartfleet_msgs/msg/detail/dds_fastrtps/delivery_task__type_support.cpp.o[0m
+[2.567s] [ 38%] [32mBuilding CXX object CMakeFiles/smartfleet_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/smartfleet_msgs/msg/delivery_task__type_support.cpp.o[0m
+[2.615s] [ 40%] [32mBuilding CXX object CMakeFiles/smartfleet_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/smartfleet_msgs/msg/vehicle_state__type_support.cpp.o[0m
+[2.625s] [ 41%] [32mBuilding CXX object CMakeFiles/smartfleet_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/smartfleet_msgs/msg/detail/dds_fastrtps/vehicle_state__type_support.cpp.o[0m
+[2.639s] [ 43%] [32mBuilding CXX object CMakeFiles/smartfleet_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/smartfleet_msgs/msg/v2_v_message__type_support.cpp.o[0m
+[2.653s] [ 45%] [32mBuilding CXX object CMakeFiles/smartfleet_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/smartfleet_msgs/msg/detail/dds_fastrtps/v2_v_message__type_support.cpp.o[0m
+[2.660s] [ 47%] [32mBuilding CXX object CMakeFiles/smartfleet_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/smartfleet_msgs/msg/detail/dds_fastrtps/task_status__type_support.cpp.o[0m
+[2.666s] [ 49%] [32mBuilding C object CMakeFiles/smartfleet_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/smartfleet_msgs/msg/detail/delivery_task__type_support.c.o[0m
+[2.667s] [ 50%] [32mBuilding CXX object CMakeFiles/smartfleet_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/smartfleet_msgs/msg/detail/delivery_task__type_support_c.cpp.o[0m
+[2.679s] [ 52%] [32m[1mLinking CXX shared library libsmartfleet_msgs__rosidl_typesupport_cpp.so[0m
+[2.687s] [ 54%] [32mBuilding CXX object CMakeFiles/smartfleet_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/smartfleet_msgs/msg/task_status__type_support.cpp.o[0m
+[2.728s] [ 56%] [32mBuilding C object CMakeFiles/smartfleet_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/smartfleet_msgs/msg/detail/vehicle_state__type_support.c.o[0m
+[2.757s] [ 58%] [32mBuilding CXX object CMakeFiles/smartfleet_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/smartfleet_msgs/msg/detail/v2_v_message__type_support.cpp.o[0m
+[2.757s] [ 58%] Built target smartfleet_msgs__rosidl_typesupport_cpp
+[2.758s] [ 60%] [32m[1mLinking CXX shared library libsmartfleet_msgs__rosidl_typesupport_c.so[0m
+[2.771s] [ 61%] [32mBuilding C object CMakeFiles/smartfleet_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/smartfleet_msgs/msg/detail/v2_v_message__type_support.c.o[0m
+[2.779s] [ 63%] [32mBuilding CXX object CMakeFiles/smartfleet_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/smartfleet_msgs/msg/detail/task_status__type_support.cpp.o[0m
+[2.821s] [ 65%] [32mBuilding C object CMakeFiles/smartfleet_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/smartfleet_msgs/msg/detail/task_status__type_support.c.o[0m
+[2.835s] [ 67%] [32mBuilding CXX object CMakeFiles/smartfleet_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/smartfleet_msgs/msg/detail/vehicle_state__type_support_c.cpp.o[0m
+[2.855s] [ 67%] Built target smartfleet_msgs__rosidl_typesupport_c
+[2.959s] [ 69%] [32mBuilding CXX object CMakeFiles/smartfleet_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/smartfleet_msgs/msg/detail/v2_v_message__type_support_c.cpp.o[0m
+[2.966s] [ 70%] [32m[1mLinking C shared library libsmartfleet_msgs__rosidl_typesupport_introspection_c.so[0m
+[2.999s] [ 72%] [32mBuilding CXX object CMakeFiles/smartfleet_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/smartfleet_msgs/msg/detail/task_status__type_support_c.cpp.o[0m
+[3.036s] [ 72%] Built target smartfleet_msgs__rosidl_typesupport_introspection_c
+[3.088s] [ 74%] [32m[1mLinking CXX shared library libsmartfleet_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.113s] [ 76%] [32m[1mLinking CXX shared library libsmartfleet_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[3.152s] [ 76%] Built target smartfleet_msgs__rosidl_typesupport_fastrtps_cpp
+[3.174s] [ 76%] Built target smartfleet_msgs__rosidl_typesupport_introspection_cpp
+[3.219s] [ 78%] [32m[1mLinking CXX shared library libsmartfleet_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[3.279s] [ 78%] Built target smartfleet_msgs__rosidl_typesupport_fastrtps_c
+[3.301s] [ 78%] Built target smartfleet_msgs
+[3.326s] [ 80%] [34m[1mGenerating Python code for ROS interfaces[0m
+[3.758s] [ 80%] Built target smartfleet_msgs__py
+[3.777s] [ 81%] [32mBuilding C object CMakeFiles/smartfleet_msgs__rosidl_generator_py.dir/rosidl_generator_py/smartfleet_msgs/msg/_delivery_task_s.c.o[0m
+[3.778s] [ 85%] [32mBuilding C object CMakeFiles/smartfleet_msgs__rosidl_generator_py.dir/rosidl_generator_py/smartfleet_msgs/msg/_v2_v_message_s.c.o[0m
+[3.779s] [ 87%] [32mBuilding C object CMakeFiles/smartfleet_msgs__rosidl_generator_py.dir/rosidl_generator_py/smartfleet_msgs/msg/_task_status_s.c.o[0m
+[3.779s] [ 85%] [32mBuilding C object CMakeFiles/smartfleet_msgs__rosidl_generator_py.dir/rosidl_generator_py/smartfleet_msgs/msg/_vehicle_state_s.c.o[0m
+[3.863s] [ 89%] [32m[1mLinking C shared library rosidl_generator_py/smartfleet_msgs/libsmartfleet_msgs__rosidl_generator_py.so[0m
+[3.902s] [ 89%] Built target smartfleet_msgs__rosidl_generator_py
+[3.925s] [ 92%] [32mBuilding C object CMakeFiles/smartfleet_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/smartfleet_msgs/_smartfleet_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[3.925s] [ 92%] [32mBuilding C object CMakeFiles/smartfleet_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/smartfleet_msgs/_smartfleet_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[3.927s] [ 94%] [32mBuilding C object CMakeFiles/smartfleet_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/smartfleet_msgs/_smartfleet_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[4.008s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/smartfleet_msgs/smartfleet_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.008s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/smartfleet_msgs/smartfleet_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.008s] [100%] [32m[1mLinking C shared library rosidl_generator_py/smartfleet_msgs/smartfleet_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.053s] [100%] Built target smartfleet_msgs__rosidl_typesupport_c__pyext
+[4.054s] [100%] Built target smartfleet_msgs__rosidl_typesupport_fastrtps_c__pyext
+[4.054s] [100%] Built target smartfleet_msgs__rosidl_typesupport_introspection_c__pyext
+[4.067s] Invoked command in '/home/louay/ros2_ws/build/smartfleet_msgs' returned '0': /usr/bin/cmake --build /home/louay/ros2_ws/build/smartfleet_msgs -- -j10 -l10
+[4.069s] Invoking command in '/home/louay/ros2_ws/build/smartfleet_msgs': /usr/bin/cmake --install /home/louay/ros2_ws/build/smartfleet_msgs
+[4.077s] -- Install configuration: ""
+[4.077s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/share/ament_index/resource_index/rosidl_interfaces/smartfleet_msgs
+[4.077s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/include/smartfleet_msgs/smartfleet_msgs
+[4.077s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/include/smartfleet_msgs/smartfleet_msgs/msg
+[4.077s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/include/smartfleet_msgs/smartfleet_msgs/msg/delivery_task.h
+[4.077s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/include/smartfleet_msgs/smartfleet_msgs/msg/vehicle_state.h
+[4.077s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/include/smartfleet_msgs/smartfleet_msgs/msg/detail
+[4.077s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/include/smartfleet_msgs/smartfleet_msgs/msg/detail/delivery_task__struct.h
+[4.077s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/include/smartfleet_msgs/smartfleet_msgs/msg/detail/v2_v_message__type_support.h
+[4.077s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/include/smartfleet_msgs/smartfleet_msgs/msg/detail/vehicle_state__type_support.h
+[4.078s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/include/smartfleet_msgs/smartfleet_msgs/msg/detail/delivery_task__functions.c
+[4.078s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/include/smartfleet_msgs/smartfleet_msgs/msg/detail/task_status__functions.c
+[4.078s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/include/smartfleet_msgs/smartfleet_msgs/msg/detail/task_status__type_support.h
+[4.078s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/include/smartfleet_msgs/smartfleet_msgs/msg/detail/task_status__struct.h
+[4.078s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/include/smartfleet_msgs/smartfleet_msgs/msg/detail/v2_v_message__functions.h
+[4.078s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/include/smartfleet_msgs/smartfleet_msgs/msg/detail/task_status__functions.h
+[4.078s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/include/smartfleet_msgs/smartfleet_msgs/msg/detail/vehicle_state__functions.c
+[4.078s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/include/smartfleet_msgs/smartfleet_msgs/msg/detail/delivery_task__functions.h
+[4.078s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/include/smartfleet_msgs/smartfleet_msgs/msg/detail/vehicle_state__functions.h
+[4.078s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/include/smartfleet_msgs/smartfleet_msgs/msg/detail/vehicle_state__struct.h
+[4.078s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/include/smartfleet_msgs/smartfleet_msgs/msg/detail/v2_v_message__struct.h
+[4.078s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/include/smartfleet_msgs/smartfleet_msgs/msg/detail/v2_v_message__functions.c
+[4.078s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/include/smartfleet_msgs/smartfleet_msgs/msg/detail/delivery_task__type_support.h
+[4.079s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/include/smartfleet_msgs/smartfleet_msgs/msg/task_status.h
+[4.079s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/include/smartfleet_msgs/smartfleet_msgs/msg/rosidl_generator_c__visibility_control.h
+[4.079s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/include/smartfleet_msgs/smartfleet_msgs/msg/v2_v_message.h
+[4.079s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/share/smartfleet_msgs/environment/library_path.sh
+[4.079s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/share/smartfleet_msgs/environment/library_path.dsv
+[4.079s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/lib/libsmartfleet_msgs__rosidl_generator_c.so
+[4.079s] -- Set runtime path of "/home/louay/ros2_ws/install/smartfleet_msgs/lib/libsmartfleet_msgs__rosidl_generator_c.so" to ""
+[4.079s] -- Up-to-date: /home/louay/ros2_ws/install/smartfleet_msgs/include/smartfleet_msgs/smartfleet_msgs
+[4.079s] -- Up-to-date: /home/louay/ros2_ws/install/smartfleet_msgs/include/smartfleet_msgs/smartfleet_msgs/msg
+[4.079s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/include/smartfleet_msgs/smartfleet_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.079s] -- Up-to-date: /home/louay/ros2_ws/install/smartfleet_msgs/include/smartfleet_msgs/smartfleet_msgs/msg/detail
+[4.079s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/include/smartfleet_msgs/smartfleet_msgs/msg/detail/task_status__rosidl_typesupport_fastrtps_c.h
+[4.080s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/include/smartfleet_msgs/smartfleet_msgs/msg/detail/v2_v_message__rosidl_typesupport_fastrtps_c.h
+[4.080s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/include/smartfleet_msgs/smartfleet_msgs/msg/detail/delivery_task__rosidl_typesupport_fastrtps_c.h
+[4.080s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/include/smartfleet_msgs/smartfleet_msgs/msg/detail/vehicle_state__rosidl_typesupport_fastrtps_c.h
+[4.080s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/lib/libsmartfleet_msgs__rosidl_typesupport_fastrtps_c.so
+[4.080s] -- Set runtime path of "/home/louay/ros2_ws/install/smartfleet_msgs/lib/libsmartfleet_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[4.080s] -- Up-to-date: /home/louay/ros2_ws/install/smartfleet_msgs/include/smartfleet_msgs/smartfleet_msgs
+[4.080s] -- Up-to-date: /home/louay/ros2_ws/install/smartfleet_msgs/include/smartfleet_msgs/smartfleet_msgs/msg
+[4.080s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/include/smartfleet_msgs/smartfleet_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.080s] -- Up-to-date: /home/louay/ros2_ws/install/smartfleet_msgs/include/smartfleet_msgs/smartfleet_msgs/msg/detail
+[4.080s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/include/smartfleet_msgs/smartfleet_msgs/msg/detail/task_status__type_support.c
+[4.080s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/include/smartfleet_msgs/smartfleet_msgs/msg/detail/v2_v_message__rosidl_typesupport_introspection_c.h
+[4.081s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/include/smartfleet_msgs/smartfleet_msgs/msg/detail/delivery_task__type_support.c
+[4.081s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/include/smartfleet_msgs/smartfleet_msgs/msg/detail/delivery_task__rosidl_typesupport_introspection_c.h
+[4.081s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/include/smartfleet_msgs/smartfleet_msgs/msg/detail/task_status__rosidl_typesupport_introspection_c.h
+[4.081s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/include/smartfleet_msgs/smartfleet_msgs/msg/detail/v2_v_message__type_support.c
+[4.081s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/include/smartfleet_msgs/smartfleet_msgs/msg/detail/vehicle_state__rosidl_typesupport_introspection_c.h
+[4.081s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/include/smartfleet_msgs/smartfleet_msgs/msg/detail/vehicle_state__type_support.c
+[4.081s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/lib/libsmartfleet_msgs__rosidl_typesupport_introspection_c.so
+[4.081s] -- Set runtime path of "/home/louay/ros2_ws/install/smartfleet_msgs/lib/libsmartfleet_msgs__rosidl_typesupport_introspection_c.so" to ""
+[4.081s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/lib/libsmartfleet_msgs__rosidl_typesupport_c.so
+[4.081s] -- Set runtime path of "/home/louay/ros2_ws/install/smartfleet_msgs/lib/libsmartfleet_msgs__rosidl_typesupport_c.so" to ""
+[4.081s] -- Up-to-date: /home/louay/ros2_ws/install/smartfleet_msgs/include/smartfleet_msgs/smartfleet_msgs
+[4.081s] -- Up-to-date: /home/louay/ros2_ws/install/smartfleet_msgs/include/smartfleet_msgs/smartfleet_msgs/msg
+[4.081s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/include/smartfleet_msgs/smartfleet_msgs/msg/vehicle_state.hpp
+[4.081s] -- Up-to-date: /home/louay/ros2_ws/install/smartfleet_msgs/include/smartfleet_msgs/smartfleet_msgs/msg/detail
+[4.081s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/include/smartfleet_msgs/smartfleet_msgs/msg/detail/delivery_task__struct.hpp
+[4.081s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/include/smartfleet_msgs/smartfleet_msgs/msg/detail/v2_v_message__traits.hpp
+[4.081s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/include/smartfleet_msgs/smartfleet_msgs/msg/detail/vehicle_state__builder.hpp
+[4.081s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/include/smartfleet_msgs/smartfleet_msgs/msg/detail/task_status__struct.hpp
+[4.081s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/include/smartfleet_msgs/smartfleet_msgs/msg/detail/task_status__type_support.hpp
+[4.081s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/include/smartfleet_msgs/smartfleet_msgs/msg/detail/task_status__traits.hpp
+[4.081s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/include/smartfleet_msgs/smartfleet_msgs/msg/detail/v2_v_message__builder.hpp
+[4.081s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/include/smartfleet_msgs/smartfleet_msgs/msg/detail/delivery_task__builder.hpp
+[4.082s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/include/smartfleet_msgs/smartfleet_msgs/msg/detail/vehicle_state__struct.hpp
+[4.082s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/include/smartfleet_msgs/smartfleet_msgs/msg/detail/v2_v_message__struct.hpp
+[4.082s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/include/smartfleet_msgs/smartfleet_msgs/msg/detail/vehicle_state__traits.hpp
+[4.082s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/include/smartfleet_msgs/smartfleet_msgs/msg/detail/delivery_task__type_support.hpp
+[4.082s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/include/smartfleet_msgs/smartfleet_msgs/msg/detail/vehicle_state__type_support.hpp
+[4.082s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/include/smartfleet_msgs/smartfleet_msgs/msg/detail/task_status__builder.hpp
+[4.082s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/include/smartfleet_msgs/smartfleet_msgs/msg/detail/v2_v_message__type_support.hpp
+[4.082s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/include/smartfleet_msgs/smartfleet_msgs/msg/detail/delivery_task__traits.hpp
+[4.082s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/include/smartfleet_msgs/smartfleet_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[4.082s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/include/smartfleet_msgs/smartfleet_msgs/msg/task_status.hpp
+[4.082s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/include/smartfleet_msgs/smartfleet_msgs/msg/delivery_task.hpp
+[4.082s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/include/smartfleet_msgs/smartfleet_msgs/msg/v2_v_message.hpp
+[4.082s] -- Up-to-date: /home/louay/ros2_ws/install/smartfleet_msgs/include/smartfleet_msgs/smartfleet_msgs
+[4.082s] -- Up-to-date: /home/louay/ros2_ws/install/smartfleet_msgs/include/smartfleet_msgs/smartfleet_msgs/msg
+[4.082s] -- Up-to-date: /home/louay/ros2_ws/install/smartfleet_msgs/include/smartfleet_msgs/smartfleet_msgs/msg/detail
+[4.082s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/include/smartfleet_msgs/smartfleet_msgs/msg/detail/vehicle_state__rosidl_typesupport_fastrtps_cpp.hpp
+[4.082s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/include/smartfleet_msgs/smartfleet_msgs/msg/detail/v2_v_message__rosidl_typesupport_fastrtps_cpp.hpp
+[4.082s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/include/smartfleet_msgs/smartfleet_msgs/msg/detail/dds_fastrtps
+[4.082s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/include/smartfleet_msgs/smartfleet_msgs/msg/detail/delivery_task__rosidl_typesupport_fastrtps_cpp.hpp
+[4.082s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/include/smartfleet_msgs/smartfleet_msgs/msg/detail/task_status__rosidl_typesupport_fastrtps_cpp.hpp
+[4.082s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/include/smartfleet_msgs/smartfleet_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.082s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/lib/libsmartfleet_msgs__rosidl_typesupport_fastrtps_cpp.so
+[4.083s] -- Set runtime path of "/home/louay/ros2_ws/install/smartfleet_msgs/lib/libsmartfleet_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[4.083s] -- Up-to-date: /home/louay/ros2_ws/install/smartfleet_msgs/include/smartfleet_msgs/smartfleet_msgs
+[4.083s] -- Up-to-date: /home/louay/ros2_ws/install/smartfleet_msgs/include/smartfleet_msgs/smartfleet_msgs/msg
+[4.083s] -- Up-to-date: /home/louay/ros2_ws/install/smartfleet_msgs/include/smartfleet_msgs/smartfleet_msgs/msg/detail
+[4.083s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/include/smartfleet_msgs/smartfleet_msgs/msg/detail/delivery_task__rosidl_typesupport_introspection_cpp.hpp
+[4.083s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/include/smartfleet_msgs/smartfleet_msgs/msg/detail/vehicle_state__type_support.cpp
+[4.083s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/include/smartfleet_msgs/smartfleet_msgs/msg/detail/vehicle_state__rosidl_typesupport_introspection_cpp.hpp
+[4.083s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/include/smartfleet_msgs/smartfleet_msgs/msg/detail/task_status__rosidl_typesupport_introspection_cpp.hpp
+[4.083s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/include/smartfleet_msgs/smartfleet_msgs/msg/detail/v2_v_message__type_support.cpp
+[4.083s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/include/smartfleet_msgs/smartfleet_msgs/msg/detail/task_status__type_support.cpp
+[4.083s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/include/smartfleet_msgs/smartfleet_msgs/msg/detail/delivery_task__type_support.cpp
+[4.084s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/include/smartfleet_msgs/smartfleet_msgs/msg/detail/v2_v_message__rosidl_typesupport_introspection_cpp.hpp
+[4.084s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/lib/libsmartfleet_msgs__rosidl_typesupport_introspection_cpp.so
+[4.084s] -- Set runtime path of "/home/louay/ros2_ws/install/smartfleet_msgs/lib/libsmartfleet_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[4.084s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/lib/libsmartfleet_msgs__rosidl_typesupport_cpp.so
+[4.084s] -- Set runtime path of "/home/louay/ros2_ws/install/smartfleet_msgs/lib/libsmartfleet_msgs__rosidl_typesupport_cpp.so" to ""
+[4.084s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/share/smartfleet_msgs/environment/pythonpath.sh
+[4.084s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/share/smartfleet_msgs/environment/pythonpath.dsv
+[4.084s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/local/lib/python3.10/dist-packages/smartfleet_msgs-0.0.0-py3.10.egg-info
+[4.084s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/local/lib/python3.10/dist-packages/smartfleet_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[4.084s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/local/lib/python3.10/dist-packages/smartfleet_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[4.084s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/local/lib/python3.10/dist-packages/smartfleet_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[4.084s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/local/lib/python3.10/dist-packages/smartfleet_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[4.084s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/local/lib/python3.10/dist-packages/smartfleet_msgs
+[4.084s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/local/lib/python3.10/dist-packages/smartfleet_msgs/smartfleet_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.084s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/local/lib/python3.10/dist-packages/smartfleet_msgs/smartfleet_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.084s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/local/lib/python3.10/dist-packages/smartfleet_msgs/_smartfleet_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.084s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/local/lib/python3.10/dist-packages/smartfleet_msgs/libsmartfleet_msgs__rosidl_generator_py.so
+[4.084s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/local/lib/python3.10/dist-packages/smartfleet_msgs/_smartfleet_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[4.084s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/local/lib/python3.10/dist-packages/smartfleet_msgs/__init__.py
+[4.084s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/local/lib/python3.10/dist-packages/smartfleet_msgs/_smartfleet_msgs_s.ep.rosidl_typesupport_c.c
+[4.084s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/local/lib/python3.10/dist-packages/smartfleet_msgs/msg
+[4.085s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/local/lib/python3.10/dist-packages/smartfleet_msgs/msg/_task_status.py
+[4.085s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/local/lib/python3.10/dist-packages/smartfleet_msgs/msg/_v2_v_message_s.c
+[4.085s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/local/lib/python3.10/dist-packages/smartfleet_msgs/msg/_task_status_s.c
+[4.085s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/local/lib/python3.10/dist-packages/smartfleet_msgs/msg/_vehicle_state.py
+[4.085s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/local/lib/python3.10/dist-packages/smartfleet_msgs/msg/__init__.py
+[4.085s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/local/lib/python3.10/dist-packages/smartfleet_msgs/msg/_v2_v_message.py
+[4.085s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/local/lib/python3.10/dist-packages/smartfleet_msgs/msg/_delivery_task_s.c
+[4.085s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/local/lib/python3.10/dist-packages/smartfleet_msgs/msg/_vehicle_state_s.c
+[4.085s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/local/lib/python3.10/dist-packages/smartfleet_msgs/msg/_delivery_task.py
+[4.086s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/local/lib/python3.10/dist-packages/smartfleet_msgs/smartfleet_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.114s] Listing '/home/louay/ros2_ws/install/smartfleet_msgs/local/lib/python3.10/dist-packages/smartfleet_msgs'...
+[4.114s] Compiling '/home/louay/ros2_ws/install/smartfleet_msgs/local/lib/python3.10/dist-packages/smartfleet_msgs/__init__.py'...
+[4.114s] Listing '/home/louay/ros2_ws/install/smartfleet_msgs/local/lib/python3.10/dist-packages/smartfleet_msgs/msg'...
+[4.114s] Compiling '/home/louay/ros2_ws/install/smartfleet_msgs/local/lib/python3.10/dist-packages/smartfleet_msgs/msg/__init__.py'...
+[4.114s] Compiling '/home/louay/ros2_ws/install/smartfleet_msgs/local/lib/python3.10/dist-packages/smartfleet_msgs/msg/_delivery_task.py'...
+[4.114s] Compiling '/home/louay/ros2_ws/install/smartfleet_msgs/local/lib/python3.10/dist-packages/smartfleet_msgs/msg/_task_status.py'...
+[4.114s] Compiling '/home/louay/ros2_ws/install/smartfleet_msgs/local/lib/python3.10/dist-packages/smartfleet_msgs/msg/_v2_v_message.py'...
+[4.114s] Compiling '/home/louay/ros2_ws/install/smartfleet_msgs/local/lib/python3.10/dist-packages/smartfleet_msgs/msg/_vehicle_state.py'...
+[4.118s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/local/lib/python3.10/dist-packages/smartfleet_msgs/smartfleet_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.118s] -- Set runtime path of "/home/louay/ros2_ws/install/smartfleet_msgs/local/lib/python3.10/dist-packages/smartfleet_msgs/smartfleet_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.118s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/local/lib/python3.10/dist-packages/smartfleet_msgs/smartfleet_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.118s] -- Set runtime path of "/home/louay/ros2_ws/install/smartfleet_msgs/local/lib/python3.10/dist-packages/smartfleet_msgs/smartfleet_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.118s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/local/lib/python3.10/dist-packages/smartfleet_msgs/smartfleet_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.119s] -- Set runtime path of "/home/louay/ros2_ws/install/smartfleet_msgs/local/lib/python3.10/dist-packages/smartfleet_msgs/smartfleet_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.119s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/lib/libsmartfleet_msgs__rosidl_generator_py.so
+[4.119s] -- Set runtime path of "/home/louay/ros2_ws/install/smartfleet_msgs/lib/libsmartfleet_msgs__rosidl_generator_py.so" to ""
+[4.119s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/share/smartfleet_msgs/msg/DeliveryTask.idl
+[4.119s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/share/smartfleet_msgs/msg/VehicleState.idl
+[4.119s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/share/smartfleet_msgs/msg/V2VMessage.idl
+[4.119s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/share/smartfleet_msgs/msg/TaskStatus.idl
+[4.119s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/share/smartfleet_msgs/msg/DeliveryTask.msg
+[4.120s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/share/smartfleet_msgs/msg/VehicleState.msg
+[4.120s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/share/smartfleet_msgs/msg/V2VMessage.msg
+[4.120s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/share/smartfleet_msgs/msg/TaskStatus.msg
+[4.120s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/share/ament_index/resource_index/package_run_dependencies/smartfleet_msgs
+[4.120s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/share/ament_index/resource_index/parent_prefix_path/smartfleet_msgs
+[4.120s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/share/smartfleet_msgs/environment/ament_prefix_path.sh
+[4.120s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/share/smartfleet_msgs/environment/ament_prefix_path.dsv
+[4.120s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/share/smartfleet_msgs/environment/path.sh
+[4.120s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/share/smartfleet_msgs/environment/path.dsv
+[4.120s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/share/smartfleet_msgs/local_setup.bash
+[4.120s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/share/smartfleet_msgs/local_setup.sh
+[4.120s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/share/smartfleet_msgs/local_setup.zsh
+[4.120s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/share/smartfleet_msgs/local_setup.dsv
+[4.120s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/share/smartfleet_msgs/package.dsv
+[4.121s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/share/ament_index/resource_index/packages/smartfleet_msgs
+[4.121s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/share/smartfleet_msgs/cmake/export_smartfleet_msgs__rosidl_generator_cExport.cmake
+[4.121s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/share/smartfleet_msgs/cmake/export_smartfleet_msgs__rosidl_generator_cExport-noconfig.cmake
+[4.121s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/share/smartfleet_msgs/cmake/export_smartfleet_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[4.121s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/share/smartfleet_msgs/cmake/export_smartfleet_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[4.121s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/share/smartfleet_msgs/cmake/smartfleet_msgs__rosidl_typesupport_introspection_cExport.cmake
+[4.122s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/share/smartfleet_msgs/cmake/smartfleet_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.122s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/share/smartfleet_msgs/cmake/smartfleet_msgs__rosidl_typesupport_cExport.cmake
+[4.122s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/share/smartfleet_msgs/cmake/smartfleet_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[4.122s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/share/smartfleet_msgs/cmake/export_smartfleet_msgs__rosidl_generator_cppExport.cmake
+[4.122s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/share/smartfleet_msgs/cmake/export_smartfleet_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.122s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/share/smartfleet_msgs/cmake/export_smartfleet_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[4.122s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/share/smartfleet_msgs/cmake/smartfleet_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[4.122s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/share/smartfleet_msgs/cmake/smartfleet_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.122s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/share/smartfleet_msgs/cmake/smartfleet_msgs__rosidl_typesupport_cppExport.cmake
+[4.122s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/share/smartfleet_msgs/cmake/smartfleet_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[4.122s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/share/smartfleet_msgs/cmake/export_smartfleet_msgs__rosidl_generator_pyExport.cmake
+[4.122s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/share/smartfleet_msgs/cmake/export_smartfleet_msgs__rosidl_generator_pyExport-noconfig.cmake
+[4.122s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/share/smartfleet_msgs/cmake/rosidl_cmake-extras.cmake
+[4.122s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/share/smartfleet_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.123s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/share/smartfleet_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.123s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/share/smartfleet_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[4.123s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/share/smartfleet_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[4.123s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/share/smartfleet_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.123s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/share/smartfleet_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.123s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/share/smartfleet_msgs/cmake/smartfleet_msgsConfig.cmake
+[4.123s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/share/smartfleet_msgs/cmake/smartfleet_msgsConfig-version.cmake
+[4.123s] -- Installing: /home/louay/ros2_ws/install/smartfleet_msgs/share/smartfleet_msgs/package.xml
+[4.128s] Invoked command in '/home/louay/ros2_ws/build/smartfleet_msgs' returned '0': /usr/bin/cmake --install /home/louay/ros2_ws/build/smartfleet_msgs

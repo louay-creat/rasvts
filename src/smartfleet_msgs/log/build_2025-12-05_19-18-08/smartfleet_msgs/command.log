@@ -1,0 +1,2 @@
+Invoking command in '/home/louay/ros2_ws/smartfleet_msgs/build/smartfleet_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/louay/ros2_ws/smartfleet_msgs -DCMAKE_INSTALL_PREFIX=/home/louay/ros2_ws/smartfleet_msgs/install/smartfleet_msgs
+Invoked command in '/home/louay/ros2_ws/smartfleet_msgs/build/smartfleet_msgs' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/louay/ros2_ws/smartfleet_msgs -DCMAKE_INSTALL_PREFIX=/home/louay/ros2_ws/smartfleet_msgs/install/smartfleet_msgs

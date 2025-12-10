@@ -1,0 +1,41 @@
+[0.244s] Invoking command in '/home/louay/ros2_ws/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/louay/ros2_ws/install/smartfleet_vehicle:/home/louay/ros2_ws/install/smartfleet_sim:/home/louay/ros2_ws/install/my_robot_control:/opt/ros/humble /usr/bin/cmake /home/louay/ros2_ws/src/my_robot_description -DCMAKE_INSTALL_PREFIX=/home/louay/ros2_ws/install/my_robot_description
+[0.315s] -- The C compiler identification is GNU 11.4.0
+[0.371s] -- The CXX compiler identification is GNU 11.4.0
+[0.380s] -- Detecting C compiler ABI info
+[0.457s] -- Detecting C compiler ABI info - done
+[0.461s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.461s] -- Detecting C compile features
+[0.463s] -- Detecting C compile features - done
+[0.466s] -- Detecting CXX compiler ABI info
+[0.554s] -- Detecting CXX compiler ABI info - done
+[0.558s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.558s] -- Detecting CXX compile features
+[0.559s] -- Detecting CXX compile features - done
+[0.562s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.683s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.814s] -- Configuring done
+[0.814s] -- Generating done
+[0.815s] -- Build files have been written to: /home/louay/ros2_ws/build/my_robot_description
+[0.818s] Invoked command in '/home/louay/ros2_ws/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/louay/ros2_ws/install/smartfleet_vehicle:/home/louay/ros2_ws/install/smartfleet_sim:/home/louay/ros2_ws/install/my_robot_control:/opt/ros/humble /usr/bin/cmake /home/louay/ros2_ws/src/my_robot_description -DCMAKE_INSTALL_PREFIX=/home/louay/ros2_ws/install/my_robot_description
+[0.821s] Invoking command in '/home/louay/ros2_ws/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/louay/ros2_ws/install/smartfleet_vehicle:/home/louay/ros2_ws/install/smartfleet_sim:/home/louay/ros2_ws/install/my_robot_control:/opt/ros/humble /usr/bin/cmake --build /home/louay/ros2_ws/build/my_robot_description -- -j10 -l10
+[0.872s] Invoked command in '/home/louay/ros2_ws/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/louay/ros2_ws/install/smartfleet_vehicle:/home/louay/ros2_ws/install/smartfleet_sim:/home/louay/ros2_ws/install/my_robot_control:/opt/ros/humble /usr/bin/cmake --build /home/louay/ros2_ws/build/my_robot_description -- -j10 -l10
+[0.881s] Invoking command in '/home/louay/ros2_ws/build/my_robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/louay/ros2_ws/install/smartfleet_vehicle:/home/louay/ros2_ws/install/smartfleet_sim:/home/louay/ros2_ws/install/my_robot_control:/opt/ros/humble /usr/bin/cmake --install /home/louay/ros2_ws/build/my_robot_description
+[0.899s] -- Install configuration: ""
+[0.899s] -- Installing: /home/louay/ros2_ws/install/my_robot_description/share/my_robot_description/urdf
+[0.899s] -- Installing: /home/louay/ros2_ws/install/my_robot_description/share/my_robot_description/urdf/my_robot.urdf.xacro
+[0.900s] -- Installing: /home/louay/ros2_ws/install/my_robot_description/share/ament_index/resource_index/package_run_dependencies/my_robot_description
+[0.900s] -- Installing: /home/louay/ros2_ws/install/my_robot_description/share/ament_index/resource_index/parent_prefix_path/my_robot_description
+[0.900s] -- Installing: /home/louay/ros2_ws/install/my_robot_description/share/my_robot_description/environment/ament_prefix_path.sh
+[0.900s] -- Installing: /home/louay/ros2_ws/install/my_robot_description/share/my_robot_description/environment/ament_prefix_path.dsv
+[0.900s] -- Installing: /home/louay/ros2_ws/install/my_robot_description/share/my_robot_description/environment/path.sh
+[0.900s] -- Installing: /home/louay/ros2_ws/install/my_robot_description/share/my_robot_description/environment/path.dsv
+[0.900s] -- Installing: /home/louay/ros2_ws/install/my_robot_description/share/my_robot_description/local_setup.bash
+[0.900s] -- Installing: /home/louay/ros2_ws/install/my_robot_description/share/my_robot_description/local_setup.sh
+[0.900s] -- Installing: /home/louay/ros2_ws/install/my_robot_description/share/my_robot_description/local_setup.zsh
+[0.900s] -- Installing: /home/louay/ros2_ws/install/my_robot_description/share/my_robot_description/local_setup.dsv
+[0.900s] -- Installing: /home/louay/ros2_ws/install/my_robot_description/share/my_robot_description/package.dsv
+[0.900s] -- Installing: /home/louay/ros2_ws/install/my_robot_description/share/ament_index/resource_index/packages/my_robot_description
+[0.901s] -- Installing: /home/louay/ros2_ws/install/my_robot_description/share/my_robot_description/cmake/my_robot_descriptionConfig.cmake
+[0.901s] -- Installing: /home/louay/ros2_ws/install/my_robot_description/share/my_robot_description/cmake/my_robot_descriptionConfig-version.cmake
+[0.901s] -- Installing: /home/louay/ros2_ws/install/my_robot_description/share/my_robot_description/package.xml
+[0.903s] Invoked command in '/home/louay/ros2_ws/build/my_robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/louay/ros2_ws/install/smartfleet_vehicle:/home/louay/ros2_ws/install/smartfleet_sim:/home/louay/ros2_ws/install/my_robot_control:/opt/ros/humble /usr/bin/cmake --install /home/louay/ros2_ws/build/my_robot_description

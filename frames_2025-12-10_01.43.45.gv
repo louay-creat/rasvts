@@ -1,0 +1,9 @@
+digraph G {
+"odom" -> "base_link"[label=" Broadcaster: default_authority\nAverage rate: 30.178\nBuffer length: 4.573\nMost recent transform: 1765323825.360469\nOldest transform: 1765323820.787586\n"];
+"map" -> "odom"[label=" Broadcaster: default_authority\nAverage rate: 8.066\nBuffer length: 4.959\nMost recent transform: 1765323825.750241\nOldest transform: 1765323820.790968\n"];
+"base_link" -> "lidar_link"[label=" Broadcaster: default_authority\nAverage rate: 10000.0\nBuffer length: 0.0\nMost recent transform: 0.0\nOldest transform: 0.0\n"];
+edge [style=invis];
+ subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
+"Recorded at time: 1765323825.36582"[ shape=plaintext ] ;
+}->"map";
+}

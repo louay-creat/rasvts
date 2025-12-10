@@ -1,0 +1,17 @@
+[0.735s] Invoking command in '/home/louay/ros2_ws/build/smartfleet_sim': PYTHONPATH=/home/louay/ros2_ws/build/smartfleet_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/louay/ros2_ws/install/smartfleet_sim/lib/python3.10/site-packages:/home/louay/ros2_ws/install/smartfleet_msgs/local/lib/python3.10/dist-packages:/home/louay/ros2_ws/build/smartfleet_vehicle:/home/louay/ros2_ws/install/smartfleet_vehicle/lib/python3.10/site-packages:/home/louay/ros2_ws/build/smartfleet_sim:/home/louay/ros2_ws/install/smartfleet_sim/lib/python3.10/site-packages:/home/louay/ros2_ws/build/my_robot_control:/home/louay/ros2_ws/install/my_robot_control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/louay/ros2_ws/build/smartfleet_sim/build --no-deps symlink_data
+[0.902s] running develop
+[1.011s] running egg_info
+[1.011s] writing smartfleet_sim.egg-info/PKG-INFO
+[1.011s] writing dependency_links to smartfleet_sim.egg-info/dependency_links.txt
+[1.012s] writing entry points to smartfleet_sim.egg-info/entry_points.txt
+[1.012s] writing requirements to smartfleet_sim.egg-info/requires.txt
+[1.012s] writing top-level names to smartfleet_sim.egg-info/top_level.txt
+[1.015s] reading manifest file 'smartfleet_sim.egg-info/SOURCES.txt'
+[1.015s] writing manifest file 'smartfleet_sim.egg-info/SOURCES.txt'
+[1.015s] running build_ext
+[1.016s] Creating /home/louay/ros2_ws/install/smartfleet_sim/lib/python3.10/site-packages/smartfleet-sim.egg-link (link to .)
+[1.017s] Installing simple_task_publisher script to /home/louay/ros2_ws/install/smartfleet_sim/lib/smartfleet_sim
+[1.017s] 
+[1.017s] Installed /home/louay/ros2_ws/build/smartfleet_sim
+[1.017s] running symlink_data
+[1.036s] Invoked command in '/home/louay/ros2_ws/build/smartfleet_sim' returned '0': PYTHONPATH=/home/louay/ros2_ws/build/smartfleet_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/louay/ros2_ws/install/smartfleet_sim/lib/python3.10/site-packages:/home/louay/ros2_ws/install/smartfleet_msgs/local/lib/python3.10/dist-packages:/home/louay/ros2_ws/build/smartfleet_vehicle:/home/louay/ros2_ws/install/smartfleet_vehicle/lib/python3.10/site-packages:/home/louay/ros2_ws/build/smartfleet_sim:/home/louay/ros2_ws/install/smartfleet_sim/lib/python3.10/site-packages:/home/louay/ros2_ws/build/my_robot_control:/home/louay/ros2_ws/install/my_robot_control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/louay/ros2_ws/build/smartfleet_sim/build --no-deps symlink_data

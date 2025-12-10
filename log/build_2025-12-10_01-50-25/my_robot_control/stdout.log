@@ -1,0 +1,18 @@
+running develop
+running egg_info
+writing my_robot_control.egg-info/PKG-INFO
+writing dependency_links to my_robot_control.egg-info/dependency_links.txt
+writing entry points to my_robot_control.egg-info/entry_points.txt
+writing requirements to my_robot_control.egg-info/requires.txt
+writing top-level names to my_robot_control.egg-info/top_level.txt
+reading manifest file 'my_robot_control.egg-info/SOURCES.txt'
+writing manifest file 'my_robot_control.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/louay/ros2_ws/install/my_robot_control/lib/python3.10/site-packages/my-robot-control.egg-link (link to .)
+Installing diff_drive_serial_bridge script to /home/louay/ros2_ws/install/my_robot_control/lib/my_robot_control
+Installing fake_odom_node script to /home/louay/ros2_ws/install/my_robot_control/lib/my_robot_control
+Installing keyboard_teleop_arrows script to /home/louay/ros2_ws/install/my_robot_control/lib/my_robot_control
+Installing straight_line_node script to /home/louay/ros2_ws/install/my_robot_control/lib/my_robot_control
+
+Installed /home/louay/ros2_ws/build/my_robot_control
+running symlink_data

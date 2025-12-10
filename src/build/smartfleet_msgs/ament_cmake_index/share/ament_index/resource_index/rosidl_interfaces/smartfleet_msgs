@@ -1,0 +1,8 @@
+msg/DeliveryTask.idl
+msg/DeliveryTask.msg
+msg/TaskStatus.idl
+msg/TaskStatus.msg
+msg/V2VMessage.idl
+msg/V2VMessage.msg
+msg/VehicleState.idl
+msg/VehicleState.msg

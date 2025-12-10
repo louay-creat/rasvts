@@ -1,0 +1,12 @@
+package.xml
+setup.cfg
+setup.py
+resource/smartfleet_vehicle
+smartfleet_vehicle/__init__.py
+smartfleet_vehicle.egg-info/PKG-INFO
+smartfleet_vehicle.egg-info/SOURCES.txt
+smartfleet_vehicle.egg-info/dependency_links.txt
+smartfleet_vehicle.egg-info/entry_points.txt
+smartfleet_vehicle.egg-info/requires.txt
+smartfleet_vehicle.egg-info/top_level.txt
+smartfleet_vehicle.egg-info/zip-safe

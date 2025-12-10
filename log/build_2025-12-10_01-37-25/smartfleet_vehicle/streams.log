@@ -1,0 +1,20 @@
+[0.593s] Invoking command in '/home/louay/ros2_ws/smartfleet_vehicle': PYTHONPATH=/home/louay/ros2_ws/build/smartfleet_vehicle/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/louay/ros2_ws/install/smartfleet_vehicle/lib/python3.10/site-packages:/home/louay/ros2_ws/install/smartfleet_msgs/local/lib/python3.10/dist-packages:/home/louay/ros2_ws/build/smartfleet_vehicle:/home/louay/ros2_ws/install/smartfleet_vehicle/lib/python3.10/site-packages:/home/louay/ros2_ws/build/smartfleet_sim:/home/louay/ros2_ws/install/smartfleet_sim/lib/python3.10/site-packages:/home/louay/ros2_ws/build/my_robot_control:/home/louay/ros2_ws/install/my_robot_control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/smartfleet_vehicle build --build-base /home/louay/ros2_ws/build/smartfleet_vehicle/build install --record /home/louay/ros2_ws/build/smartfleet_vehicle/install.log --single-version-externally-managed install_data
+[0.757s] running egg_info
+[0.758s] writing ../build/smartfleet_vehicle/smartfleet_vehicle.egg-info/PKG-INFO
+[0.758s] writing dependency_links to ../build/smartfleet_vehicle/smartfleet_vehicle.egg-info/dependency_links.txt
+[0.758s] writing entry points to ../build/smartfleet_vehicle/smartfleet_vehicle.egg-info/entry_points.txt
+[0.759s] writing requirements to ../build/smartfleet_vehicle/smartfleet_vehicle.egg-info/requires.txt
+[0.759s] writing top-level names to ../build/smartfleet_vehicle/smartfleet_vehicle.egg-info/top_level.txt
+[0.761s] reading manifest file '../build/smartfleet_vehicle/smartfleet_vehicle.egg-info/SOURCES.txt'
+[0.761s] writing manifest file '../build/smartfleet_vehicle/smartfleet_vehicle.egg-info/SOURCES.txt'
+[0.761s] running build
+[0.761s] running build_py
+[0.762s] running install
+[0.762s] running install_lib
+[0.763s] running install_data
+[0.763s] running install_egg_info
+[0.764s] removing '/home/louay/ros2_ws/install/smartfleet_vehicle/lib/python3.10/site-packages/smartfleet_vehicle-0.0.0-py3.10.egg-info' (and everything under it)
+[0.764s] Copying ../build/smartfleet_vehicle/smartfleet_vehicle.egg-info to /home/louay/ros2_ws/install/smartfleet_vehicle/lib/python3.10/site-packages/smartfleet_vehicle-0.0.0-py3.10.egg-info
+[0.765s] running install_scripts
+[0.783s] writing list of installed files to '/home/louay/ros2_ws/build/smartfleet_vehicle/install.log'
+[0.798s] Invoked command in '/home/louay/ros2_ws/smartfleet_vehicle' returned '0': PYTHONPATH=/home/louay/ros2_ws/build/smartfleet_vehicle/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/louay/ros2_ws/install/smartfleet_vehicle/lib/python3.10/site-packages:/home/louay/ros2_ws/install/smartfleet_msgs/local/lib/python3.10/dist-packages:/home/louay/ros2_ws/build/smartfleet_vehicle:/home/louay/ros2_ws/install/smartfleet_vehicle/lib/python3.10/site-packages:/home/louay/ros2_ws/build/smartfleet_sim:/home/louay/ros2_ws/install/smartfleet_sim/lib/python3.10/site-packages:/home/louay/ros2_ws/build/my_robot_control:/home/louay/ros2_ws/install/my_robot_control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/smartfleet_vehicle build --build-base /home/louay/ros2_ws/build/smartfleet_vehicle/build install --record /home/louay/ros2_ws/build/smartfleet_vehicle/install.log --single-version-externally-managed install_data

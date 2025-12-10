@@ -1,0 +1,6 @@
+setup.py
+smartfleet_msgs/__init__.py
+smartfleet_msgs.egg-info/PKG-INFO
+smartfleet_msgs.egg-info/SOURCES.txt
+smartfleet_msgs.egg-info/dependency_links.txt
+smartfleet_msgs.egg-info/top_level.txt

@@ -1,0 +1,9 @@
+{
+  "package_name": "smartfleet_msgs",
+  "non_idl_tuples": [
+    "/home/louay/ros2_ws/src/smartfleet_msgs:msg/DeliveryTask.msg",
+    "/home/louay/ros2_ws/src/smartfleet_msgs:msg/VehicleState.msg",
+    "/home/louay/ros2_ws/src/smartfleet_msgs:msg/V2VMessage.msg",
+    "/home/louay/ros2_ws/src/smartfleet_msgs:msg/TaskStatus.msg"
+  ]
+}

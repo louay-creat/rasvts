@@ -1,0 +1,6 @@
+Invoking command in '/home/louay/ros2_ws/src/build/smartfleet_msgs': /usr/bin/cmake /home/louay/ros2_ws/src/smartfleet_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/louay/ros2_ws/src/install/smartfleet_msgs
+Invoked command in '/home/louay/ros2_ws/src/build/smartfleet_msgs' returned '0': /usr/bin/cmake /home/louay/ros2_ws/src/smartfleet_msgs -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/louay/ros2_ws/src/install/smartfleet_msgs
+Invoking command in '/home/louay/ros2_ws/src/build/smartfleet_msgs': /usr/bin/cmake --build /home/louay/ros2_ws/src/build/smartfleet_msgs -- -j10 -l10
+Invoked command in '/home/louay/ros2_ws/src/build/smartfleet_msgs' returned '0': /usr/bin/cmake --build /home/louay/ros2_ws/src/build/smartfleet_msgs -- -j10 -l10
+Invoking command in '/home/louay/ros2_ws/src/build/smartfleet_msgs': /usr/bin/cmake --install /home/louay/ros2_ws/src/build/smartfleet_msgs
+Invoked command in '/home/louay/ros2_ws/src/build/smartfleet_msgs' returned '0': /usr/bin/cmake --install /home/louay/ros2_ws/src/build/smartfleet_msgs

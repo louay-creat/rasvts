@@ -1,0 +1,6 @@
+int32 vehicle_id
+geometry_msgs/Pose pose
+float32 battery_level
+float32 capacity_remaining
+int32 current_task_id
+bool is_available

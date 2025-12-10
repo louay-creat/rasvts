@@ -1,0 +1,6 @@
+[console_scripts]
+diff_drive_serial_bridge = my_robot_control.diff_drive_serial_bridge:main
+fake_odom_node = my_robot_control.fake_odom_node:main
+keyboard_teleop_arrows = my_robot_control.keyboard_teleop_arrows:main
+straight_line_node = my_robot_control.straight_line_node:main
+

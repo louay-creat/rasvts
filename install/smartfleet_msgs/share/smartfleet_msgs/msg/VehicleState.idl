@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from smartfleet_msgs/msg/VehicleState.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Pose.idl"
+
+module smartfleet_msgs {
+  module msg {
+    struct VehicleState {
+      int32 vehicle_id;
+
+      geometry_msgs::msg::Pose pose;
+
+      float battery_level;
+
+      float capacity_remaining;
+
+      int32 current_task_id;
+
+      boolean is_available;
+    };
+  };
+};

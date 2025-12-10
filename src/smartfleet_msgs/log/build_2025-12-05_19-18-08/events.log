@@ -1,0 +1,181 @@
+[0.000000] (-) TimerEvent: {}
+[0.000165] (smartfleet_msgs) JobQueued: {'identifier': 'smartfleet_msgs', 'dependencies': OrderedDict()}
+[0.000220] (smartfleet_msgs) JobStarted: {'identifier': 'smartfleet_msgs'}
+[0.007059] (smartfleet_msgs) JobProgress: {'identifier': 'smartfleet_msgs', 'progress': 'cmake'}
+[0.007677] (smartfleet_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/louay/ros2_ws/smartfleet_msgs', '-DCMAKE_INSTALL_PREFIX=/home/louay/ros2_ws/smartfleet_msgs/install/smartfleet_msgs'], 'cwd': '/home/louay/ros2_ws/smartfleet_msgs/build/smartfleet_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'louay'), ('LC_TIME', 'ar_LY.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/louay/ros2_ws/install/rplidar_ros/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/louay'), ('OLDPWD', '/home/louay/ros2_ws/smartfleet_msgs/msg'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ar_LY.UTF-8'), ('SYSTEMD_EXEC_PID', '1189'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/louay/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'louay'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'louay'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/louay-VirtualBox:@/tmp/.ICE-unix/1143,unix/louay-VirtualBox:/tmp/.ICE-unix/1143'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ar_LY.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b59a2c48_68c3_443c_8390_732d5ea4c895'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ar_LY.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.BXX2G3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.95'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/louay/ros2_ws/install/rplidar_ros:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ar_LY.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ar_LY.UTF-8'), ('LC_IDENTIFICATION', 'ar_LY.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/louay/ros2_ws/smartfleet_msgs/build/smartfleet_msgs'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ar_LY.UTF-8'), ('LC_PAPER', 'ar_LY.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/louay/ros2_ws/install/rplidar_ros:/opt/ros/humble')]), 'shell': False}
+[0.018869] (smartfleet_msgs) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) in CMakeLists.txt:\n'}
+[0.018983] (smartfleet_msgs) StderrLine: {'line': b'  No project() command is present.  The top-level CMakeLists.txt file must\n'}
+[0.019013] (smartfleet_msgs) StderrLine: {'line': b'  contain a literal, direct call to the project() command.  Add a line of\n'}
+[0.019036] (smartfleet_msgs) StderrLine: {'line': b'  code such as\n'}
+[0.019072] (smartfleet_msgs) StderrLine: {'line': b'\n'}
+[0.019095] (smartfleet_msgs) StderrLine: {'line': b'    project(ProjectName)\n'}
+[0.019120] (smartfleet_msgs) StderrLine: {'line': b'\n'}
+[0.019141] (smartfleet_msgs) StderrLine: {'line': b'  near the top of the file, but after cmake_minimum_required().\n'}
+[0.019162] (smartfleet_msgs) StderrLine: {'line': b'\n'}
+[0.019183] (smartfleet_msgs) StderrLine: {'line': b'  CMake is pretending there is a "project(Project)" command on the first\n'}
+[0.019204] (smartfleet_msgs) StderrLine: {'line': b'  line.\n'}
+[0.019225] (smartfleet_msgs) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.019250] (smartfleet_msgs) StderrLine: {'line': b'\x1b[0m\n'}
+[0.085574] (smartfleet_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.101861] (-) TimerEvent: {}
+[0.148622] (smartfleet_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.154954] (smartfleet_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.202053] (-) TimerEvent: {}
+[0.224864] (smartfleet_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.229726] (smartfleet_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.229849] (smartfleet_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.230136] (smartfleet_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.233446] (smartfleet_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.302690] (-) TimerEvent: {}
+[0.305313] (smartfleet_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.313937] (smartfleet_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.314057] (smartfleet_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.314088] (smartfleet_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.314115] (smartfleet_msgs) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.402822] (-) TimerEvent: {}
+[0.418784] (smartfleet_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.467326] (smartfleet_msgs) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/humble/share/ament_cmake_core/cmake/core/normalize_path.cmake:52 (while):\n'}
+[0.467453] (smartfleet_msgs) StderrLine: {'line': b'  had incorrect arguments:\n'}
+[0.467481] (smartfleet_msgs) StderrLine: {'line': b'\n'}
+[0.467505] (smartfleet_msgs) StderrLine: {'line': b'    "TRUE"\n'}
+[0.467529] (smartfleet_msgs) StderrLine: {'line': b'\n'}
+[0.467550] (smartfleet_msgs) StderrLine: {'line': b'  An argument named "TRUE" appears in a conditional statement.  Policy\n'}
+[0.467571] (smartfleet_msgs) StderrLine: {'line': b'  CMP0012 is not set: if() recognizes numbers and boolean constants.  Run\n'}
+[0.467600] (smartfleet_msgs) StderrLine: {'line': b'  "cmake --help-policy CMP0012" for policy details.  Use the cmake_policy\n'}
+[0.467621] (smartfleet_msgs) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[0.467643] (smartfleet_msgs) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.467663] (smartfleet_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/normalize_path.cmake:34 (_normalize_path__collapse_redundant)\n'}
+[0.467684] (smartfleet_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/builtin_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake:13 (normalize_path)\n'}
+[0.467705] (smartfleet_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/builtin_interfaces/cmake/builtin_interfacesConfig.cmake:41 (include)\n'}
+[0.467726] (smartfleet_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/std_msgs/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[0.467746] (smartfleet_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/std_msgs/cmake/std_msgsConfig.cmake:41 (include)\n'}
+[0.467766] (smartfleet_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/geometry_msgs/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[0.467785] (smartfleet_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/geometry_msgs/cmake/geometry_msgsConfig.cmake:41 (include)\n'}
+[0.467805] (smartfleet_msgs) StderrLine: {'line': b'  CMakeLists.txt:1 (find_package)\n'}
+[0.467825] (smartfleet_msgs) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.467845] (smartfleet_msgs) StderrLine: {'line': b'\x1b[0m\n'}
+[0.467864] (smartfleet_msgs) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/humble/share/ament_cmake_core/cmake/core/normalize_path.cmake:72 (while):\n'}
+[0.467885] (smartfleet_msgs) StderrLine: {'line': b'  had incorrect arguments:\n'}
+[0.467904] (smartfleet_msgs) StderrLine: {'line': b'\n'}
+[0.467923] (smartfleet_msgs) StderrLine: {'line': b'    "TRUE"\n'}
+[0.467943] (smartfleet_msgs) StderrLine: {'line': b'\n'}
+[0.467962] (smartfleet_msgs) StderrLine: {'line': b'  An argument named "TRUE" appears in a conditional statement.  Policy\n'}
+[0.467982] (smartfleet_msgs) StderrLine: {'line': b'  CMP0012 is not set: if() recognizes numbers and boolean constants.  Run\n'}
+[0.468002] (smartfleet_msgs) StderrLine: {'line': b'  "cmake --help-policy CMP0012" for policy details.  Use the cmake_policy\n'}
+[0.468128] (smartfleet_msgs) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[0.468168] (smartfleet_msgs) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.468191] (smartfleet_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/normalize_path.cmake:35 (_normalize_path__collapse_uplevel_reference)\n'}
+[0.468214] (smartfleet_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/builtin_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake:13 (normalize_path)\n'}
+[0.468235] (smartfleet_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/builtin_interfaces/cmake/builtin_interfacesConfig.cmake:41 (include)\n'}
+[0.468257] (smartfleet_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/std_msgs/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[0.468282] (smartfleet_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/std_msgs/cmake/std_msgsConfig.cmake:41 (include)\n'}
+[0.468304] (smartfleet_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/geometry_msgs/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[0.468326] (smartfleet_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/geometry_msgs/cmake/geometry_msgsConfig.cmake:41 (include)\n'}
+[0.468347] (smartfleet_msgs) StderrLine: {'line': b'  CMakeLists.txt:1 (find_package)\n'}
+[0.468366] (smartfleet_msgs) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.468389] (smartfleet_msgs) StderrLine: {'line': b'\x1b[0m\n'}
+[0.471089] (smartfleet_msgs) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/humble/share/ament_cmake_core/cmake/core/normalize_path.cmake:52 (while):\n'}
+[0.471159] (smartfleet_msgs) StderrLine: {'line': b'  had incorrect arguments:\n'}
+[0.471187] (smartfleet_msgs) StderrLine: {'line': b'\n'}
+[0.471210] (smartfleet_msgs) StderrLine: {'line': b'    "TRUE"\n'}
+[0.471232] (smartfleet_msgs) StderrLine: {'line': b'\n'}
+[0.471253] (smartfleet_msgs) StderrLine: {'line': b'  An argument named "TRUE" appears in a conditional statement.  Policy\n'}
+[0.471274] (smartfleet_msgs) StderrLine: {'line': b'  CMP0012 is not set: if() recognizes numbers and boolean constants.  Run\n'}
+[0.471295] (smartfleet_msgs) StderrLine: {'line': b'  "cmake --help-policy CMP0012" for policy details.  Use the cmake_policy\n'}
+[0.471315] (smartfleet_msgs) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[0.471334] (smartfleet_msgs) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.471361] (smartfleet_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/normalize_path.cmake:34 (_normalize_path__collapse_redundant)\n'}
+[0.471381] (smartfleet_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/rcutils/cmake/ament_cmake_export_include_directories-extras.cmake:13 (normalize_path)\n'}
+[0.471404] (smartfleet_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/rcutils/cmake/rcutilsConfig.cmake:41 (include)\n'}
+[0.471424] (smartfleet_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_runtime_c/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[0.471444] (smartfleet_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_runtime_c/cmake/rosidl_runtime_cConfig.cmake:41 (include)\n'}
+[0.471464] (smartfleet_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/builtin_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[0.471484] (smartfleet_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/builtin_interfaces/cmake/builtin_interfacesConfig.cmake:41 (include)\n'}
+[0.471505] (smartfleet_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/std_msgs/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[0.471525] (smartfleet_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/std_msgs/cmake/std_msgsConfig.cmake:41 (include)\n'}
+[0.471544] (smartfleet_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/geometry_msgs/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[0.471563] (smartfleet_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/geometry_msgs/cmake/geometry_msgsConfig.cmake:41 (include)\n'}
+[0.471581] (smartfleet_msgs) StderrLine: {'line': b'  CMakeLists.txt:1 (find_package)\n'}
+[0.471600] (smartfleet_msgs) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.471621] (smartfleet_msgs) StderrLine: {'line': b'\x1b[0m\n'}
+[0.471641] (smartfleet_msgs) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/humble/share/ament_cmake_core/cmake/core/normalize_path.cmake:72 (while):\n'}
+[0.471661] (smartfleet_msgs) StderrLine: {'line': b'  had incorrect arguments:\n'}
+[0.471683] (smartfleet_msgs) StderrLine: {'line': b'\n'}
+[0.471824] (smartfleet_msgs) StderrLine: {'line': b'    "TRUE"\n'}
+[0.471848] (smartfleet_msgs) StderrLine: {'line': b'\n'}
+[0.471869] (smartfleet_msgs) StderrLine: {'line': b'  An argument named "TRUE" appears in a conditional statement.  Policy\n'}
+[0.471891] (smartfleet_msgs) StderrLine: {'line': b'  CMP0012 is not set: if() recognizes numbers and boolean constants.  Run\n'}
+[0.471912] (smartfleet_msgs) StderrLine: {'line': b'  "cmake --help-policy CMP0012" for policy details.  Use the cmake_policy\n'}
+[0.471933] (smartfleet_msgs) StderrLine: {'line': b'  command to set the policy and suppress this warning.\n'}
+[0.471953] (smartfleet_msgs) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.471975] (smartfleet_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/normalize_path.cmake:35 (_normalize_path__collapse_uplevel_reference)\n'}
+[0.471996] (smartfleet_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/rcutils/cmake/ament_cmake_export_include_directories-extras.cmake:13 (normalize_path)\n'}
+[0.472017] (smartfleet_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/rcutils/cmake/rcutilsConfig.cmake:41 (include)\n'}
+[0.472037] (smartfleet_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_runtime_c/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[0.472056] (smartfleet_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_runtime_c/cmake/rosidl_runtime_cConfig.cmake:41 (include)\n'}
+[0.472076] (smartfleet_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/builtin_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[0.472096] (smartfleet_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/builtin_interfaces/cmake/builtin_interfacesConfig.cmake:41 (include)\n'}
+[0.472116] (smartfleet_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/std_msgs/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[0.472136] (smartfleet_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/std_msgs/cmake/std_msgsConfig.cmake:41 (include)\n'}
+[0.472156] (smartfleet_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/geometry_msgs/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[0.472176] (smartfleet_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/geometry_msgs/cmake/geometry_msgsConfig.cmake:41 (include)\n'}
+[0.472195] (smartfleet_msgs) StderrLine: {'line': b'  CMakeLists.txt:1 (find_package)\n'}
+[0.472215] (smartfleet_msgs) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.472236] (smartfleet_msgs) StderrLine: {'line': b'\x1b[0m\n'}
+[0.496050] (smartfleet_msgs) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/humble/share/ament_cmake_core/cmake/core/list_append_unique.cmake:30 (if):\n'}
+[0.496167] (smartfleet_msgs) StderrLine: {'line': b'  Policy CMP0057 is not set: Support new IN_LIST if() operator.  Run "cmake\n'}
+[0.496194] (smartfleet_msgs) StderrLine: {'line': b'  --help-policy CMP0057" for policy details.  Use the cmake_policy command to\n'}
+[0.496271] (smartfleet_msgs) StderrLine: {'line': b'  set the policy and suppress this warning.\n'}
+[0.496304] (smartfleet_msgs) StderrLine: {'line': b'\n'}
+[0.496330] (smartfleet_msgs) StderrLine: {'line': b'  IN_LIST will be interpreted as an operator when the policy is set to NEW.\n'}
+[0.496354] (smartfleet_msgs) StderrLine: {'line': b'  Since the policy is not set the OLD behavior will be used.\n'}
+[0.496376] (smartfleet_msgs) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.496399] (smartfleet_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/rcutils/cmake/ament_cmake_export_dependencies-extras.cmake:84 (list_append_unique)\n'}
+[0.496421] (smartfleet_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/rcutils/cmake/rcutilsConfig.cmake:41 (include)\n'}
+[0.496442] (smartfleet_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_runtime_c/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[0.496463] (smartfleet_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_runtime_c/cmake/rosidl_runtime_cConfig.cmake:41 (include)\n'}
+[0.496841] (smartfleet_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/builtin_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[0.497152] (smartfleet_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/builtin_interfaces/cmake/builtin_interfacesConfig.cmake:41 (include)\n'}
+[0.497186] (smartfleet_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/std_msgs/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[0.497212] (smartfleet_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/std_msgs/cmake/std_msgsConfig.cmake:41 (include)\n'}
+[0.497242] (smartfleet_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/geometry_msgs/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[0.497267] (smartfleet_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/geometry_msgs/cmake/geometry_msgsConfig.cmake:41 (include)\n'}
+[0.497289] (smartfleet_msgs) StderrLine: {'line': b'  CMakeLists.txt:1 (find_package)\n'}
+[0.497312] (smartfleet_msgs) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.497334] (smartfleet_msgs) StderrLine: {'line': b'\x1b[0m\n'}
+[0.497354] (smartfleet_msgs) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/list_append_unique.cmake:30 (if):\n'}
+[0.497375] (smartfleet_msgs) StderrLine: {'line': b'  if given arguments:\n'}
+[0.497736] (smartfleet_msgs) StderrLine: {'line': b'\n'}
+[0.497793] (smartfleet_msgs) StderrLine: {'line': b'    "NOT" "element" "IN_LIST" "rcutils_RECURSIVE_DEPENDENCIES"\n'}
+[0.497819] (smartfleet_msgs) StderrLine: {'line': b'\n'}
+[0.497841] (smartfleet_msgs) StderrLine: {'line': b'  Unknown arguments specified\n'}
+[0.497862] (smartfleet_msgs) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.497882] (smartfleet_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/rcutils/cmake/ament_cmake_export_dependencies-extras.cmake:84 (list_append_unique)\n'}
+[0.497903] (smartfleet_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/rcutils/cmake/rcutilsConfig.cmake:41 (include)\n'}
+[0.497929] (smartfleet_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_runtime_c/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[0.497949] (smartfleet_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/rosidl_runtime_c/cmake/rosidl_runtime_cConfig.cmake:41 (include)\n'}
+[0.497968] (smartfleet_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/builtin_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[0.497988] (smartfleet_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/builtin_interfaces/cmake/builtin_interfacesConfig.cmake:41 (include)\n'}
+[0.498007] (smartfleet_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/std_msgs/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[0.498027] (smartfleet_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/std_msgs/cmake/std_msgsConfig.cmake:41 (include)\n'}
+[0.498046] (smartfleet_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/geometry_msgs/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)\n'}
+[0.498065] (smartfleet_msgs) StderrLine: {'line': b'  /opt/ros/humble/share/geometry_msgs/cmake/geometry_msgsConfig.cmake:41 (include)\n'}
+[0.498085] (smartfleet_msgs) StderrLine: {'line': b'  CMakeLists.txt:1 (find_package)\n'}
+[0.498103] (smartfleet_msgs) StderrLine: {'line': b'\n'}
+[0.498123] (smartfleet_msgs) StderrLine: {'line': b'\x1b[0m\n'}
+[0.498143] (smartfleet_msgs) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.498169] (smartfleet_msgs) StdoutLine: {'line': b'See also "/home/louay/ros2_ws/smartfleet_msgs/build/smartfleet_msgs/CMakeFiles/CMakeOutput.log".\n'}
+[0.498192] (smartfleet_msgs) StderrLine: {'line': b'\x1b[31mCMake Error in CMakeLists.txt:\n'}
+[0.498213] (smartfleet_msgs) StderrLine: {'line': b'  No cmake_minimum_required command is present.  A line of code such as\n'}
+[0.498234] (smartfleet_msgs) StderrLine: {'line': b'\n'}
+[0.498253] (smartfleet_msgs) StderrLine: {'line': b'    cmake_minimum_required(VERSION 3.22)\n'}
+[0.498272] (smartfleet_msgs) StderrLine: {'line': b'\n'}
+[0.498291] (smartfleet_msgs) StderrLine: {'line': b'  should be added at the top of the file.  The version specified may be lower\n'}
+[0.498311] (smartfleet_msgs) StderrLine: {'line': b'  if you wish to support older CMake versions for this project.  For more\n'}
+[0.498330] (smartfleet_msgs) StderrLine: {'line': b'  information run "cmake --help-policy CMP0000".\n'}
+[0.498350] (smartfleet_msgs) StderrLine: {'line': b'\n'}
+[0.498371] (smartfleet_msgs) StderrLine: {'line': b'\x1b[0m\n'}
+[0.501755] (smartfleet_msgs) CommandEnded: {'returncode': 1}
+[0.503658] (-) TimerEvent: {}
+[0.518387] (smartfleet_msgs) JobEnded: {'identifier': 'smartfleet_msgs', 'rc': 1}
+[0.531970] (-) EventReactorShutdown: {}

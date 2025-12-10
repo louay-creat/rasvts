@@ -1,0 +1,21 @@
+[0.601s] Invoking command in '/home/louay/ros2_ws/src/smartfleet_sim': PYTHONPATH=/home/louay/ros2_ws/build/smartfleet_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/louay/ros2_ws/install/smartfleet_sim/lib/python3.10/site-packages:/home/louay/ros2_ws/install/smartfleet_msgs/local/lib/python3.10/dist-packages:/home/louay/ros2_ws/build/smartfleet_vehicle:/home/louay/ros2_ws/install/smartfleet_vehicle/lib/python3.10/site-packages:/home/louay/ros2_ws/build/smartfleet_sim:/home/louay/ros2_ws/install/smartfleet_sim/lib/python3.10/site-packages:/home/louay/ros2_ws/build/my_robot_control:/home/louay/ros2_ws/install/my_robot_control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/smartfleet_sim build --build-base /home/louay/ros2_ws/build/smartfleet_sim/build install --record /home/louay/ros2_ws/build/smartfleet_sim/install.log --single-version-externally-managed install_data
+[0.792s] running egg_info
+[0.792s] writing ../../build/smartfleet_sim/smartfleet_sim.egg-info/PKG-INFO
+[0.793s] writing dependency_links to ../../build/smartfleet_sim/smartfleet_sim.egg-info/dependency_links.txt
+[0.793s] writing entry points to ../../build/smartfleet_sim/smartfleet_sim.egg-info/entry_points.txt
+[0.793s] writing requirements to ../../build/smartfleet_sim/smartfleet_sim.egg-info/requires.txt
+[0.793s] writing top-level names to ../../build/smartfleet_sim/smartfleet_sim.egg-info/top_level.txt
+[0.798s] reading manifest file '../../build/smartfleet_sim/smartfleet_sim.egg-info/SOURCES.txt'
+[0.798s] writing manifest file '../../build/smartfleet_sim/smartfleet_sim.egg-info/SOURCES.txt'
+[0.799s] running build
+[0.799s] running build_py
+[0.803s] running install
+[0.803s] running install_lib
+[0.803s] running install_data
+[0.803s] running install_egg_info
+[0.803s] removing '/home/louay/ros2_ws/install/smartfleet_sim/lib/python3.10/site-packages/smartfleet_sim-0.0.0-py3.10.egg-info' (and everything under it)
+[0.803s] Copying ../../build/smartfleet_sim/smartfleet_sim.egg-info to /home/louay/ros2_ws/install/smartfleet_sim/lib/python3.10/site-packages/smartfleet_sim-0.0.0-py3.10.egg-info
+[0.803s] running install_scripts
+[0.819s] Installing simple_task_publisher script to /home/louay/ros2_ws/install/smartfleet_sim/lib/smartfleet_sim
+[0.819s] writing list of installed files to '/home/louay/ros2_ws/build/smartfleet_sim/install.log'
+[0.839s] Invoked command in '/home/louay/ros2_ws/src/smartfleet_sim' returned '0': PYTHONPATH=/home/louay/ros2_ws/build/smartfleet_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/louay/ros2_ws/install/smartfleet_sim/lib/python3.10/site-packages:/home/louay/ros2_ws/install/smartfleet_msgs/local/lib/python3.10/dist-packages:/home/louay/ros2_ws/build/smartfleet_vehicle:/home/louay/ros2_ws/install/smartfleet_vehicle/lib/python3.10/site-packages:/home/louay/ros2_ws/build/smartfleet_sim:/home/louay/ros2_ws/install/smartfleet_sim/lib/python3.10/site-packages:/home/louay/ros2_ws/build/my_robot_control:/home/louay/ros2_ws/install/my_robot_control/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/smartfleet_sim build --build-base /home/louay/ros2_ws/build/smartfleet_sim/build install --record /home/louay/ros2_ws/build/smartfleet_sim/install.log --single-version-externally-managed install_data

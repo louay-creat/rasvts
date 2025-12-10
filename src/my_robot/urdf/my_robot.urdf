@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<robot name="my_robot">
+
+  <!-- Base link: a simple box -->
+  <link name="base_link">
+    <visual>
+      <origin xyz="0 0 0.1" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.4 0.3 0.2"/>
+      </geometry>
+      <material name="blue">
+        <color rgba="0.1 0.1 0.8 1.0"/>
+      </material>
+    </visual>
+
+    <collision>
+      <origin xyz="0 0 0.1" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.4 0.3 0.2"/>
+      </geometry>
+    </collision>
+  </link>
+
+  <!-- LiDAR link, called 'laser' to match your frame_id -->
+  <link name="laser">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <cylinder length="0.05" radius="0.05"/>
+      </geometry>
+      <material name="green">
+        <color rgba="0.1 0.8 0.1 1.0"/>
+      </material>
+    </visual>
+  </link>
+
+  <!-- Fixed joint between base_link and laser -->
+  <joint name="base_to_laser" type="fixed">
+    <parent link="base_link"/>
+    <child link="laser"/>
+    <!-- LiDAR 0.2 m above base_link -->
+    <origin xyz="0.0 0.0 0.2" rpy="0 0 0"/>
+  </joint>
+
+</robot>

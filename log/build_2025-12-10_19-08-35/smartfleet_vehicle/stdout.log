@@ -1,0 +1,14 @@
+running develop
+running egg_info
+writing smartfleet_vehicle.egg-info/PKG-INFO
+writing dependency_links to smartfleet_vehicle.egg-info/dependency_links.txt
+writing entry points to smartfleet_vehicle.egg-info/entry_points.txt
+writing requirements to smartfleet_vehicle.egg-info/requires.txt
+writing top-level names to smartfleet_vehicle.egg-info/top_level.txt
+reading manifest file 'smartfleet_vehicle.egg-info/SOURCES.txt'
+writing manifest file 'smartfleet_vehicle.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/louay/ros2_ws/install/smartfleet_vehicle/lib/python3.10/site-packages/smartfleet-vehicle.egg-link (link to .)
+
+Installed /home/louay/ros2_ws/build/smartfleet_vehicle
+running symlink_data
