@@ -1,5 +1,6 @@
 /home/louay/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/launch/live_mapping.launch.py
 /home/louay/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/launch/manual_control.launch.py
+/home/louay/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/launch/mapping_control.launch.py
 /home/louay/ros2_ws/install/my_robot_bringup/share/my_robot_bringup/launch/slam_straight.launch.py
 /home/louay/ros2_ws/install/my_robot_bringup/share/ament_index/resource_index/package_run_dependencies/my_robot_bringup
 /home/louay/ros2_ws/install/my_robot_bringup/share/ament_index/resource_index/parent_prefix_path/my_robot_bringup
